@@ -22,7 +22,7 @@ def getAllFunctions(f):
        x= re.findall(pattern, linea)
        if x:
           for el in x:
-              lista.append(el)
+              lista.append(el.split(":")[0])
        
    l=list(set(lista))
    l.sort()
@@ -88,7 +88,7 @@ def metodo2(funzione,f,out):
                 print("Riga "+str(k)+": "+y)
         k+=1     
     fin.close()
-     print("")
+    print("")
     k,i,T,z,numeroPar=0
     b="a"
 
