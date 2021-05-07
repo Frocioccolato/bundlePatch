@@ -211,4 +211,3 @@ else:
     #non ho trovato nulla nella forma funzione:function(
     metodo2(funzione,f,out)
 
-
