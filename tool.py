@@ -77,7 +77,7 @@ def metodo2(funzione,f,out):
     ff="my_function"
     p="[^a-zA-Z\.]"+funzione+"\([^()]*\)"
 
-    k=1
+    k=0
     
     fin = open(f, "r")
     print("Tutte le funzioni con lo stesso nome di "+funzione+" e chiamate : ")
@@ -89,7 +89,11 @@ def metodo2(funzione,f,out):
         k+=1     
     fin.close()
     print("")
-    k,i,T,z,numeroPar=0
+    k=0
+    i=0
+    T=0
+    z=0
+    numeroPar=0
     b="a"
 
 
